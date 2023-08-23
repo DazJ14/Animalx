@@ -159,17 +159,17 @@ const NavigationLayout = ({ isScrolled }) => {
           <nav>
             <NavigationList>
               <li>
-                <Link to="/" className="navigation-item">
+                <Link to="/Animalx" className="navigation-item">
                   Inicio
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="navigation-item">
+                <Link to="/Animalx/about" className="navigation-item">
                   Sobre Nostros
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="navigation-item">
+                <Link to="/Animalx/services" className="navigation-item">
                   Servicios
                 </Link>
               </li>
@@ -185,17 +185,17 @@ const NavigationLayout = ({ isScrolled }) => {
       <MobileNav isScrolled={isScrolled} mobileOpen={mobileOpen}>
         <ul>
           <li>
-            <Link onClick={openMobileNav} to="/">
+            <Link onClick={openMobileNav} to="/Animalx">
               Inicio
             </Link>
           </li>
           <li>
-            <Link onClick={openMobileNav} to="/about">
+            <Link onClick={openMobileNav} to="/Animalx/about">
               Sobre Nosotros
             </Link>
           </li>
           <li>
-            <Link onClick={openMobileNav} to="/services">
+            <Link onClick={openMobileNav} to="/Animalx/services">
               Servicios
             </Link>
           </li>

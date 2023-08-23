@@ -27,9 +27,9 @@ function App() {
       <NavigationLayout isScrolled={isScrolled} />
       <BodyLayout>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/Animalx" element={<Home />} />
+          <Route path="/Animalx/about" element={<About />} />
+          <Route path="/Animalx/services" element={<Services />} />
         </Routes>
       </BodyLayout>
       <FooterLayout />
