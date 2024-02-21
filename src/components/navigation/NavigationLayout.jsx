@@ -106,7 +106,7 @@ const MobileNav = styled.nav`
   height: ${(props) => (props.mobileOpen ? "130px" : "0px")};
   overflow: hidden;
   transition-duration: 0.2s;
-  
+
 
   @media (max-width: 700px) {
     display: block;
@@ -155,7 +155,7 @@ const NavigationLayout = ({ isScrolled }) => {
       <NavContainer>
         <HeaderLayout>
           <HeaderTitle>
-            <Link to="/">Animalx</Link>
+            <Link to="/Animalx">Animalx</Link>
           </HeaderTitle>
           <nav>
             <NavigationList>
