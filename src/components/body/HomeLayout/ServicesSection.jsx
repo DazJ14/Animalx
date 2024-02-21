@@ -43,6 +43,12 @@ const Service = styled.article`
       margin-top: 0;
     }
   }
+
+  @media (max-width: 700px) {
+    height: auto;
+    display: block;
+    margin-top: 5rem;
+  }
 `;
 
 const ImageWrapper = styled.div`
@@ -86,6 +92,11 @@ const ServiceImage = styled.img`
 
   @media (max-width: 1100px) {
     height: 100px;
+  }
+
+  @media (max-width: 700px) {
+    display: block;
+    margin: 0 auto;
   }
 `;
 
