@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const DesktopFloatingNavigation = ({ navigationActive = false }) => {
     return (
@@ -7,7 +7,7 @@ const DesktopFloatingNavigation = ({ navigationActive = false }) => {
           initial={{ y: -200 }}
           animate={navigationActive ? { y: 0 } : { y: -200 }}
           id="floating-navigation" 
-          className="hidden lg:block border border-white h-20 fixed lg:inset-x-12 xl:inset-x-24 top-8 bg-[rgb(34,34,34)] rounded-3xl py-4 px-8 z-50 max-w-[2000px] mx-auto"
+          className="hidden lg:block h-20 fixed lg:inset-x-12 xl:inset-x-24 top-8 bg-[rgb(34,34,34)] rounded-3xl py-4 px-8 z-50 max-w-[2000px] mx-auto"
         >
           <nav className="h-full relative flex justify-between items-center">
             <div className="flex gap-12 h-min">

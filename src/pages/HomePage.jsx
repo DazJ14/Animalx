@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
-import { useAnimate, stagger, motion, useScroll, useTransform } from "framer-motion";
+import {
+  useAnimate,
+  stagger,
+  motion,
+  useScroll,
+  useTransform,
+} from "motion/react";
 import { IMAGES } from "../imageHelper";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import golderRetriever from "../assets/golden-retriever.png"
