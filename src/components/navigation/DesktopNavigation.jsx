@@ -8,10 +8,10 @@ const DesktopNavigation = () => {
                 <nav className="h-full relative flex justify-between items-center">
                     <div className="flex gap-12 h-min">
                         <Link to={ROUTES.home.path} className="block py-1 px-3 font-bold font-[Figtree] text-xl rounded-xl transition-colors hover:bg-[rgb(175,127,113)] hover:text-white">Inicio</Link>
-                        <Link to={ROUTES.blog.path} className="block py-1 px-3 font-bold font-[Figtree] text-xl rounded-xl transition-colors hover:bg-[rgb(175,127,113)] hover:text-white">Servicios</Link>
+                        <Link to={ROUTES.sobreAnimalx.routes[0].path} className="block py-1 px-3 font-bold font-[Figtree] text-xl rounded-xl transition-colors hover:bg-[rgb(175,127,113)] hover:text-white">Servicios</Link>
                     </div>
                     <div className="flex gap-12 h-min">
-                        <a href="#" className="block py-1 px-3 font-bold font-[Figtree] text-xl rounded-xl transition-colors hover:bg-[rgb(175,127,113)] hover:text-white">Blog</a>
+                        <Link to={ROUTES.blog.path} className="block py-1 px-3 font-bold font-[Figtree] text-xl rounded-xl transition-colors hover:bg-[rgb(175,127,113)] hover:text-white">Blog</Link>
                         <div className="block py-1 px-3 font-bold font-[Figtree] text-xl rounded-xl transition-colors cursor-pointer hover:bg-[rgb(175,127,113)] hover:text-white">Idioma</div>
                     </div>
                     <a href="#" className="flex items-center gap-2 p-2 absolute left-1/2 -translate-x-1/2 w-auto h-full hover:scale-110 transition-transform cursor-pointer">
