@@ -9,6 +9,10 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import { useWindowScroll, useWindowSize } from "@uidotdev/usehooks";
 import DesktopNavigation from "./components/navigation/DesktopNavigation";
+import BlogPage from "./pages/BlogPage";
+import NotFound from "./pages/NotFound";
+import ServicesPage from "./pages/ServicesPage";
+import AdoptionPage from "./pages/AdoptionPage";
 
 function App() {
   const [{ y: scrollY }] = useWindowScroll()
@@ -47,10 +51,11 @@ function App() {
         <main className="min-h-[calc(100vh-20px)] bg-[hsl(44,52%,96%)] rounded-b-[32px] xl:rounded-t-[32px] relative z-20 overflow-hidden pb-20">
           <Switch>
             <Route path={ROUTES.home.path} component={HomePage} />
-            <Route path={ROUTES.blog.path} component={AboutPage} />
-            {/* <Route path={ROUTES.placeholder.path} component={HomePage} />
-            <Route path={ROUTES.placeholder.path} component={HomePage} /> */}
-            <Route>404, Not Found!</Route> 
+            <Route path={ROUTES.sobreAnimalx.routes[0].path} component={AboutPage} />
+            <Route path={ROUTES.sobreAnimalx.routes[1].path} component={ServicesPage} />
+            <Route path={ROUTES.sobreAnimalx.routes[2].path} component={AdoptionPage} />
+            <Route path={ROUTES.blog.path} component={BlogPage} />
+            <Route component={NotFound} />
           </Switch>
         </main>
         <FooterLayout />
