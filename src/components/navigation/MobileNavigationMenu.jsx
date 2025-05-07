@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const MobileNavigationMenu = ({ toggleMenu }) => {
     return (
-        <div className="fixed flex justify-between items-center inset-x-6 top-6 z-[200]">
+        <div className="fixed flex justify-between items-center inset-x-6 top-6 z-200">
             <motion.a whileHover={{ scale: 1.08 }} whileTap={{ scale: 0.9 }} href="#" className="block size-16 cursor-pointer">
                 <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M100 63.58L1.5 0V102.74H198.5V0L100 63.58Z" fill="#FF5F38"/>

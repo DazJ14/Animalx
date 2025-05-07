@@ -65,7 +65,7 @@ const HomePage = () => {
           <div className="h-[552px] w-full absolute z-20 bottom-0">
             <div className="w-full h-full relative">
               <motion.img initial={heroImage.name} variants={heroStyleVariants} src={heroImage.image} className="welcome-image h-full absolute" alt="" />
-              <span className="w-[356px] h-20 absolute bottom-0 left-[50%] -translate-x-1/2 bg-gradient-to-b from-[rgba(255,255,255,0)] to-[rgb(250,247,239)]" />
+              <span className="w-[356px] h-20 absolute bottom-0 left-[50%] -translate-x-1/2 bg-linear-to-b from-[rgba(255,255,255,0)] to-[rgb(250,247,239)]" />
             </div>
           </div>
 
@@ -144,7 +144,7 @@ const HomePage = () => {
 
       <section className="w-full">
         <div className="flex justify-center w-full max-w-7xl mx-auto h-fit py-24 bg-[rgb(34,34,34)] rounded-[32px] relative overflow-visible">
-          <div className="w-full h-full absolute bg-auto bg-left-top bg-repeat inset-0 opacity-5 z-10"  style={{ backgroundImage: `url('${background}')`}} />
+          <div className="w-full h-full absolute bg-auto bg-top-left bg-repeat inset-0 opacity-5 z-10"  style={{ backgroundImage: `url('${background}')`}} />
           <div className="image-left absolute -bottom-24 left-24 xl:-bottom-5 xl:left-20 drop-shadow-2xl z-30">
             <img src={golderRetriever} className="size-60 xl:size-80 object-contain" alt="" />
           </div>

@@ -7,7 +7,7 @@ const MobileNavigationOverlay = () => {
     // ref={overlayScope} 
     initial={{ display: "none", opacity: 0 }} 
     // animate={isMenuOpen ? { display: "block", opacity: 1 } : { display: "none", opacity: 0 }}
-    className="overlay fixed w-full h-screen bg-[rgb(250,247,239)] top-0 left-0 z-[100]"
+    className="overlay fixed w-full h-screen bg-[rgb(250,247,239)] top-0 left-0 z-100"
     >
         <div className="w-full h-full relative">
             <motion.nav initial={{ x: -150, opacity: 0 }} className="w-full h-full pt-32 px-12 relative z-10 space-y-8">

@@ -54,7 +54,7 @@ function App() {
           </Switch>
         </main>
         <FooterLayout />
-        <div className="w-full h-full absolute top-0 left-0 bg-auto bg-left-top bg-repeat opacity-15" style={{ backgroundImage: `url('${background}')`}} />
+        <div className="w-full h-full absolute top-0 left-0 bg-auto bg-top-left bg-repeat opacity-15" style={{ backgroundImage: `url('${background}')`}} />
       </div>
     </div>
   );
