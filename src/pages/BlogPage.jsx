@@ -1,14 +1,9 @@
-import { motion } from "motion/react";
-
 const BlogPage = () => {
   return (
-    <div className="p-32">
-        <motion.div
-            initial={{ opacity: 0, y: -100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1 }}
-            className="size-16 bg-amber-400" 
-        />
+    <div className="flex flex-col items-center justify-center h-full p-4 bg-gray-100 pt-32">
+      <h1 className="text-3xl font-bold mb-4">Blog Page</h1>
+      <p className="text-lg">Welcome to the blog page!</p>
+      <p className="text-lg">Here you can find all the latest articles and updates.</p>
     </div>
   );
 }

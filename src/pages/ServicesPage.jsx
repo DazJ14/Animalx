@@ -1,6 +1,6 @@
 const ServicesPage = () => {
   return (
-    <div>
+    <div className="p-32">
       <h1>Services</h1>
       <p>We offer a variety of services to meet your needs.</p>
       <ul>
