@@ -7,7 +7,7 @@ export const ROUTES = {
     title: "Animalx",
     routes: [
       {
-        path: "animalx",
+        path: "about",
         title: "Sobre Animalx"
       },
       {
@@ -24,8 +24,8 @@ export const ROUTES = {
     path: "/blog",
     title: "Blog"
   },
-  placeholder: {
-    path: "/",
-    title: "Placeholder"
+  notFound: {
+    path: "*",
+    title: "Not Found"
   }
 }
