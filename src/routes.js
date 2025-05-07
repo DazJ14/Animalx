@@ -15,8 +15,8 @@ export const ROUTES = {
         title: "Servicios"
       },
       {
-        path: "contacto",
-        title: "Contactanos"
+        path: "adopcion",
+        title: "Adopción"
       }
     ]
   },
